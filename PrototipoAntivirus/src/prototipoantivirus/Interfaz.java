@@ -51,7 +51,7 @@ public class Interfaz extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Sergio Rodriguez\\Documents\\Semestre 6\\Teoria de la computacion\\ensayo.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/ensayo.png"))); // NOI18N
         getContentPane().add(jLabel1);
         jLabel1.setBounds(10, 11, 70, 97);
 
@@ -137,11 +137,11 @@ public class Interfaz extends javax.swing.JFrame {
         jTextField6.setBounds(520, 370, 93, 20);
 
         jLabel11.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\Sergio Rodriguez\\Documents\\Semestre 6\\Teoria de la computacion\\fondo de creta extra fino.jpg")); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/fondo de creta extra fino.jpg"))); // NOI18N
         getContentPane().add(jLabel11);
         jLabel11.setBounds(0, 0, 630, 110);
 
-        jLabel12.setIcon(new javax.swing.ImageIcon("C:\\Users\\Sergio Rodriguez\\Documents\\Semestre 6\\Teoria de la computacion\\fondo-abstracto-azul_1048-1511.jpg")); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/fondo-abstracto-azul_1048-1511.jpg"))); // NOI18N
         getContentPane().add(jLabel12);
         jLabel12.setBounds(0, 110, 626, 320);
 

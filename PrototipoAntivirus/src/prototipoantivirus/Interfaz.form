@@ -28,7 +28,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Sergio Rodriguez\Documents\Semestre 6\Teoria de la computacion\ensayo.png"/>
+          <Image iconType="3" name="/Resources/ensayo.png"/>
         </Property>
       </Properties>
       <Constraints>
@@ -251,7 +251,7 @@
           <Color blue="ff" green="ff" red="ff" type="rgb"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Sergio Rodriguez\Documents\Semestre 6\Teoria de la computacion\fondo de creta extra fino.jpg"/>
+          <Image iconType="3" name="/Resources/fondo de creta extra fino.jpg"/>
         </Property>
       </Properties>
       <Constraints>
@@ -263,7 +263,7 @@
     <Component class="javax.swing.JLabel" name="jLabel12">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\Sergio Rodriguez\Documents\Semestre 6\Teoria de la computacion\fondo-abstracto-azul_1048-1511.jpg"/>
+          <Image iconType="3" name="/Resources/fondo-abstracto-azul_1048-1511.jpg"/>
         </Property>
       </Properties>
       <Constraints>
