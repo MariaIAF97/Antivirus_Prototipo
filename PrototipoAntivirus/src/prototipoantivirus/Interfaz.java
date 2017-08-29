@@ -52,8 +52,8 @@ public class Interfaz extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/ensayo.png"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 11, -1, -1));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/Catch.png"))); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-330, -160, 440, 430));
 
         jLabel2.setFont(new java.awt.Font("Century Gothic", 0, 24)); // NOI18N
         jLabel2.setText("Catch Defender");
