@@ -48,6 +48,8 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel11 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
         jLabel12 = new javax.swing.JLabel();
+        jTextField7 = new javax.swing.JTextField();
+        jTextField8 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -59,7 +61,7 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel2.setText("Catch Defender");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 10, 220, 85));
 
-        jButton1.setBackground(new java.awt.Color(255, 153, 255));
+        jButton1.setBackground(new java.awt.Color(153, 153, 255));
         jButton1.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
         jButton1.setText("Seleccionar Archivo");
         jButton1.setName("btnSeleccionar"); // NOI18N
@@ -68,9 +70,11 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
         jLabel3.setText("Contenido del Archivo");
         getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(226, 126, 160, -1));
+
+        jTextField1.setFont(new java.awt.Font("Century Gothic", 0, 11)); // NOI18N
         getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(218, 157, 164, 165));
 
-        jButton2.setBackground(new java.awt.Color(255, 102, 255));
+        jButton2.setBackground(new java.awt.Color(153, 153, 255));
         jButton2.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
         jButton2.setText("Analizar Archivo");
         jButton2.setName("btnAnalizar"); // NOI18N
@@ -84,13 +88,15 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel5.setText("¿Virus?");
         getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(427, 166, -1, -1));
 
+        jTextField2.setFont(new java.awt.Font("Century Gothic", 0, 11)); // NOI18N
         jTextField2.setName("txtVirus"); // NOI18N
-        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 170, 93, -1));
+        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 170, 93, -1));
 
         jLabel6.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
         jLabel6.setText("Cantidad");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(427, 206, 70, -1));
 
+        jTextField3.setFont(new java.awt.Font("Century Gothic", 0, 11)); // NOI18N
         jTextField3.setName("txtCantidad"); // NOI18N
         getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 210, 93, -1));
 
@@ -102,6 +108,7 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel8.setText("¿Usama?");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(427, 282, 70, -1));
 
+        jTextField4.setFont(new java.awt.Font("Century Gothic", 0, 11)); // NOI18N
         jTextField4.setName("txtUsama"); // NOI18N
         getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 280, 93, -1));
 
@@ -109,6 +116,7 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel9.setText("¿Amtrax?");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(427, 328, -1, -1));
 
+        jTextField5.setFont(new java.awt.Font("Century Gothic", 0, 11)); // NOI18N
         jTextField5.setName("txtAmtrax"); // NOI18N
         getContentPane().add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 330, 93, -1));
 
@@ -116,19 +124,27 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel10.setText("¿éBola?");
         getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(427, 369, 60, -1));
 
+        jTextField6.setFont(new java.awt.Font("Century", 0, 11)); // NOI18N
         jTextField6.setName("txtEbola"); // NOI18N
         getContentPane().add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 370, 93, -1));
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/fondo de creta extra fino.jpg"))); // NOI18N
         getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 620, 110));
 
-        jButton3.setBackground(new java.awt.Color(204, 51, 255));
+        jButton3.setBackground(new java.awt.Color(153, 153, 255));
         jButton3.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
         jButton3.setText("AFD");
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 390, -1, -1));
 
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/fondo-abstracto-azul_1048-1511.jpg"))); // NOI18N
         getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 110, 620, 320));
+
+        jTextField7.setName("txtVirus"); // NOI18N
+        getContentPane().add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 170, 93, -1));
+
+        jTextField8.setFont(new java.awt.Font("Century Gothic", 0, 11)); // NOI18N
+        jTextField8.setName("txtCantidad"); // NOI18N
+        getContentPane().add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 210, 93, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -192,5 +208,7 @@ public class Interfaz extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     private javax.swing.JTextField jTextField6;
+    private javax.swing.JTextField jTextField7;
+    private javax.swing.JTextField jTextField8;
     // End of variables declaration//GEN-END:variables
 }
