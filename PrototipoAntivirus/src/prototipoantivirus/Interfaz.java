@@ -107,7 +107,7 @@ public class Interfaz extends javax.swing.JFrame {
         jLabel7.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
         jLabel7.setText("Tipo Virus");
         getContentPane().add(jLabel7);
-        jLabel7.setBounds(454, 246, 61, 19);
+        jLabel7.setBounds(490, 250, 61, 19);
 
         jLabel8.setFont(new java.awt.Font("Century Gothic", 0, 14)); // NOI18N
         jLabel8.setText("¿Usama?");
